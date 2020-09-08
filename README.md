@@ -1,5 +1,8 @@
 # README
-this repo has all of the code for the portfolio app
+First things first, I have linked my formatted cover letter below. Feel free to ignore the pasted cover letter that was present in my application submission.
+https://drive.google.com/file/d/10EGQU69ChN8V1oY-j5BUBL-qy9Ge2UuL/view?usp=sharing
+
+This repo has all of the code for the portfolio app
 
 The deployed link is below.
 https://still-lowlands-26861.herokuapp.com/images
