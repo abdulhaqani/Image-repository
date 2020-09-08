@@ -8,7 +8,7 @@ Things you may want to consider:
 
 - This application renders images from image urls. I was going to a implement a server that saves the images with s3, however, in the end I determined that for the purposes of this app image urls should be good enough.
 - For the payment system:
-  - use card number 4242 4242 4242 4242, any ccv and a date in the future. The api I am using is their test api so there is no real payments (for obvious reasons, not trying to be paying for testing a development application).
+  - use card number 4242 4242 4242 4242, any ccv and a date in the future. The api I am using is their test api so there is no real payments (for obvious reasons, not gonna pay for testing a development application).
 
 - Inventories are updated with each purchase. 
 
