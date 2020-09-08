@@ -3,6 +3,7 @@ this repo has all of the code for the portfolio app
 
 it can also be viewed over here
 
+https://image-repo-shopify.herokuapp.com/
 
 Things you may want to consider:
 
