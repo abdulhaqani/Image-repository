@@ -1,9 +1,7 @@
 # README
 this repo has all of the code for the portfolio app
 
-it can also be viewed over here
-
-https://image-repo-shopify.herokuapp.com/
+to view it clone the repo, then run bundle install, then run rails db:migrate. Then you can view on by running rails server
 
 Things you may want to consider:
 
