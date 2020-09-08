@@ -27,6 +27,7 @@ class ImagesController <ApplicationController
       if @image.public == '2'
         @image.public = false
       end
+      @image.user = current_user
       if @image.save
         flash[:notice] = 'Image was uploaded successfully'
         redirect_to @image
