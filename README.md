@@ -1,7 +1,7 @@
 # README
 this repo has all of the code for the portfolio app
 
-to view it clone the repo, then run bundle install, then run rails db:migrate. Then you can view on by running rails server
+to view it clone the repo, then run bundle install, then run yarn install --check-files then run rails db:migrate. Then you can view on by running rails server
 
 Things you may want to consider:
 
