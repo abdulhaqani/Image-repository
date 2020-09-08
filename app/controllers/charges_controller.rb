@@ -23,7 +23,7 @@ class ChargesController < ApplicationController
     description: 'Rails Stripe customer',
     currency: 'usd',
   })
-  flash[:notice]= "Thanks, you paid !#{@charge.image.price}!"
+  flash[:notice]= "Thanks, you paid $#{@charge.image.price}!"
   
   rescue Stripe::CardError => e
     flash[:error] = e.message

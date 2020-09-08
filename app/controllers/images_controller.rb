@@ -23,10 +23,11 @@ class ImagesController <ApplicationController
 
   def create
     if logged_in?
-      @image = Image.new(params.require(:image).permit(:title, :source, :price, :public))
+      @image = Image.new(params.require(:image).permit(:title, :source, :price, :public, :inventory))
       if @image.public == '2'
         @image.public = false
       end
+
       @image.user = current_user
       if @image.save
         flash[:notice] = 'Image was uploaded successfully'
