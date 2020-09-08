@@ -13,7 +13,7 @@ This repo has all of the code for the portfolio app
 
 The deployed link is below.
 
-https://still-lowlands-26861.herokuapp.com/images
+https://still-lowlands-26861.herokuapp.com
 
 Things you may want to consider:
 
