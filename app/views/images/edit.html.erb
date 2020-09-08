@@ -1,0 +1,8 @@
+<h1 class="mt-4 show-title">Edit Image</h1>
+
+<%= render 'form' %>
+
+<div class="text-center mt-4">
+
+  <%= link_to 'Delete Image', image_path(@image), method: :delete, data: {confirm: "Are you sure?"}, class: "image-link"%>
+</div>
