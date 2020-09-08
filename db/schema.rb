@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_08_094411) do
+ActiveRecord::Schema.define(version: 2020_09_08_115139) do
 
   create_table "charges", force: :cascade do |t|
     t.boolean "is_completed", default: false
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2020_09_08_094411) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer "user_id"
-    t.integer "inventory", default: 0
+    t.decimal "inventory"
   end
 
   create_table "users", force: :cascade do |t|
